@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/gpt-dictation.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/gpt-dictation", "dest": "api/gpt-dictation.js" }
+  ]
+}
